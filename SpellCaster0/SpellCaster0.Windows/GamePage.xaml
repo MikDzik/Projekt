@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="SpellCaster0.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpellCaster0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Flyout x:Key="SharedFlyoutResource" Placement="Top">
+            <TextBlock Style="{StaticResource MyTextBlockStyle}">
+                   You are Transfixed.
+            </TextBlock>
+        </Flyout>
+        
+        <DataTemplate x:Key="ListViewDataTemplate">
+            <StackPanel>
+                <TextBlock Text="{Binding Name}">                            
+                </TextBlock>
+                <TextBlock Text="{Binding CastTime}"  />
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Name="mainGrid" Style="{StaticResource MyGridStyle}"  FlyoutBase.AttachedFlyout="{StaticResource SharedFlyoutResource}" Tapped="mainGrid_Tapped" Width="auto" Height="auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView ItemsSource="{Binding MyActionList}" ItemTemplate="{StaticResource ListViewDataTemplate}" Background="RoyalBlue"/>
+
+        <Button Style="{StaticResource MyButtonStyle}" Grid.Row="1" x:Name="Refresh" Content="Refresh" Click="Refresh_Click"  Height="150" HorizontalAlignment="Stretch" Background="AliceBlue"/>
+        <ScrollViewer  Grid.Column="1" Grid.RowSpan="2" Name="scroll" HorizontalScrollMode="Disabled">
+            <StackPanel x:Name="stcPnl"  />
+           
+        </ScrollViewer>
+
+
+    </Grid>
+</Page>

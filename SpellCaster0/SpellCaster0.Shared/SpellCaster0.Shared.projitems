@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>44b7d47e-16c2-4465-9cfa-463855282330</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SpellCaster0</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpellControls\BookRecognitionControl.xaml.cs">
+      <DependentUpon>BookRecognitionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SpellControls\CompelControl.xaml.cs">
+      <DependentUpon>CompelControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SpellControls\SpellTheftControl.xaml.cs">
+      <DependentUpon>SpellTheftControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SpellControls\TransfixControl.xaml.cs">
+      <DependentUpon>TransfixControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Spells\BookRecognition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spells\Compel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spells\Dispel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spells\ISpell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spells\SpellTheft.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spells\Transfix.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BookRecognitionViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MyCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MyNotify.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TransfixViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wizard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WizardServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)SpellControls\BookRecognitionControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)SpellControls\CompelControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)SpellControls\SpellTheftControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)SpellControls\TransfixControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="SpellCaster0.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpellCaster0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Style="{StaticResource MyGridStyle}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1">
+            <Button Grid.Row="0" Click="showBtn" Style="{StaticResource MyButtonStyle}">Pokaz otwarte gry</Button>
+            <Button Click="joinBtn" Grid.Row="1" Style="{StaticResource MyButtonStyle}" >Dołącz do gry!</Button>
+            <Button  Grid.Row="2" Click="createBtn" Content="Utwórz grę!" Style="{StaticResource MyButtonStyle}" />
+            <TextBox x:Name="txtBox" Grid.Row="3" Style="{StaticResource MyTextBoxStyle}" Text="nazwa gry" ></TextBox>
+            <TextBlock x:Name="display" Grid.Row="4" Style="{StaticResource MyTextBlockStyle}"  />
+        </StackPanel>
+       
+        
+
+    </Grid>
+</Page>

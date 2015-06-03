@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="SpellCaster0.ChoicePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpellCaster0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Style="{StaticResource MyGridStyle}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1">
+            <TextBlock x:Name="txtBox" Style="{StaticResource MyTextBlockStyle}" Text="" ></TextBlock>
+            <Button x:Name="actBtn" Style="{StaticResource MyButtonStyle}" Click="actBtn_Click" Content="ShowPlayers" />
+            <StackPanel x:Name="stkPnl" HorizontalAlignment="Center">
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>

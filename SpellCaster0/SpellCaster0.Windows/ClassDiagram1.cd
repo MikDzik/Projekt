@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpellCaster0.App" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.Player" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.Spell" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAgAAAAAAAAAAQAAAAAAYAAAAAIoAAQAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\Spell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.Wizard">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\Wizard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.ChoicePage" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAQABAAAAAAAAAEAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChoicePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.GamePage" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIgIQAACAAAAACCAAAAAAAAAAAAAAAABQAAAA=</HashCode>
+      <FileName>GamePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.MainPage" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAQ=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.SpellControl" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAgAAAAAAAAAGAAAAAAMAAAIQAAAACAAQAAAA=</HashCode>
+      <FileName>SpellControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.WizardServices" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>WizardServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.Spells.BookRecognition" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\Spells\BookRecognition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.Spells.Compel" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\Spells\Compel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.Spells.Dispel" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\Spells\Dispel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpellCaster0.Spells.Transfix" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\M\Documents\Visual Studio 2013\Projects\SpellCaster0\SpellCaster0\SpellCaster0.Shared\Spells\Transfix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
